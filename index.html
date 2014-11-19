@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Group 6: Water Level Wizards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500' rel='stylesheet' type='text/css'>
+    <link href="./dist/css/index.css" rel="stylesheet" media="screen">
+    <link href="./dist/css/mobile.css" rel="stylesheet" media="screen">
+   
+  
+  
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./dist/js/email.js"></script>
+     </head>
+  <script>
+    (function () {
+    var a = document.getElementById("sectionHeader"),
+        e = document.documentElement;
+    $(window).unbind("scroll").scroll(function () {
+        a.style.backgroundPosition = "0px " + -(Math.max(e.scrollTop, a.scrollTop) / 8) + "px";
+    });
+})();
+  </script>
+  
+  
+<body>
+  
+  <script>
+     $( document ).ready(function() {
+      $("#header").hide();
+      $("#header").fadeIn(3000);
+    });
+    </script>
+  
+  <section id="sectionHeader">
+      <div id="header">
+        <center>
+          <img src="./mmlogo.gif" style="height:300px;"><br>
+            <img src="./Medium.png" style="height:200px;">
+        <center>
+      </div>
+    </section>
+  
+
+</body>
+    
+</html>
