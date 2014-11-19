@@ -192,7 +192,7 @@ header nav ul li a:hover{
 	font-weight: bold;
 	font-size: 25px;
 	color: #646363;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .services .desc li p{
@@ -232,7 +232,7 @@ header nav ul li a:hover{
 	font-size: 30px;
 	text-transform: uppercase;
 	letter-spacing: .5px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .call_to_action p{
@@ -277,8 +277,11 @@ header nav ul li a:hover{
 }
 
 .about{
-    font-family: "LatoBold", arial;
-    font-weight: 200;
+    
+    width:80%;
+    font-family: 'LatoRegular', arial;
+	font-size: 16px;
+	color: #7e7e7e;
 }
 
 .client_testimonials h3{
@@ -288,7 +291,7 @@ header nav ul li a:hover{
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 
@@ -511,8 +514,8 @@ footer .rights a:hover{
 	width: 1060px;
 	height: auto;
 	margin: 0 auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
 }
 
 
